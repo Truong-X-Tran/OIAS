@@ -1,2 +1,5 @@
 # OIAS
-Online Image Analysis and Scoring for Screening Experiments
+Online Image Analysis and Scoring for Screening Experiments (OAIS)
+The OIAS software is an online tool for analyzing and scoring the images of protein crystallization trial experiments. Users can upload pictures of their screening samples (images of the sampling wells in the screening plates), and then run the analysis tool to obtain the scoring of the samples. The score of the screening experiment is in the range of 0 to 9, where 0 means no crystallization. The higher the score, the better the change of a crystalline can occur. A deep neural network model is trained and deployed in the software to recognize the protein crystal appearance in the trial images. The learning model can also be trained to classify the score ranking of the images. Based on these predictions, the software will return the scoring results to the users. These scores will be used to evaluate and design optimization screenings to obtain better crystallization.
+
+Project website: https://sites.psu.edu/truongtran/oias-experiment-scoring/
